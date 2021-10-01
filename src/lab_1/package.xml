@@ -4,7 +4,7 @@
   <version>0.0.0</version>
   <description>LAB1: Publicador y subscriptor RPM</description>
   <maintainer email="ovidioandraaz@unimagdalena.edu.co">Grupo 2</maintainer>
-  <license>Apache License 2.0<</license>
+  <license>Apache License 2.0</license>
 
 <exec_depend>rclpy</exec_depend>
 <exec_depend>std_msgs</exec_depend>
