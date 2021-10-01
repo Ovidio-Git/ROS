@@ -1,6 +1,4 @@
 <?xml version="1.0"?>
-<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematy>
-<package format="3">
   <name>lab_1</name>
   <version>0.0.0</version>
   <description>LAB1: Publicador y subscriptor RPM</description>
