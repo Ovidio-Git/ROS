@@ -1,0 +1,37 @@
+[0.876s] Invoking command in '/lab1_ws/src/lab_1': PYTHONPATH=/lab1_ws/src/install/lab_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab_1 build --build-base /lab1_ws/src/build/lab_1/build install --prefix /lab1_ws/src/install/lab_1 --record /lab1_ws/src/build/lab_1/install.log --single-version-externally-managed
+[1.647s] running egg_info
+[1.649s] creating ../build/lab_1/lab_1.egg-info
+[1.650s] writing ../build/lab_1/lab_1.egg-info/PKG-INFO
+[1.652s] writing dependency_links to ../build/lab_1/lab_1.egg-info/dependency_links.txt
+[1.653s] writing entry points to ../build/lab_1/lab_1.egg-info/entry_points.txt
+[1.654s] writing requirements to ../build/lab_1/lab_1.egg-info/requires.txt
+[1.655s] writing top-level names to ../build/lab_1/lab_1.egg-info/top_level.txt
+[1.659s] writing manifest file '../build/lab_1/lab_1.egg-info/SOURCES.txt'
+[1.754s] reading manifest file '../build/lab_1/lab_1.egg-info/SOURCES.txt'
+[1.756s] writing manifest file '../build/lab_1/lab_1.egg-info/SOURCES.txt'
+[1.761s] running build
+[1.761s] running build_py
+[1.762s] creating /lab1_ws/src/build/lab_1/build
+[1.762s] creating /lab1_ws/src/build/lab_1/build/lib
+[1.763s] creating /lab1_ws/src/build/lab_1/build/lib/lab_1
+[1.764s] copying lab_1/__init__.py -> /lab1_ws/src/build/lab_1/build/lib/lab_1
+[1.764s] copying lab_1/node.py -> /lab1_ws/src/build/lab_1/build/lib/lab_1
+[1.765s] running install
+[1.767s] running install_lib
+[1.772s] creating /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1
+[1.774s] copying /lab1_ws/src/build/lab_1/build/lib/lab_1/__init__.py -> /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1
+[1.775s] copying /lab1_ws/src/build/lab_1/build/lib/lab_1/node.py -> /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1
+[1.776s] byte-compiling /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1/__init__.py to __init__.cpython-38.pyc
+[1.779s] byte-compiling /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1/node.py to node.cpython-38.pyc
+[1.784s] running install_data
+[1.785s] creating /lab1_ws/src/install/lab_1/share/ament_index
+[1.786s] creating /lab1_ws/src/install/lab_1/share/ament_index/resource_index
+[1.787s] creating /lab1_ws/src/install/lab_1/share/ament_index/resource_index/packages
+[1.787s] copying resource/lab_1 -> /lab1_ws/src/install/lab_1/share/ament_index/resource_index/packages
+[1.788s] copying package.xml -> /lab1_ws/src/install/lab_1/share/lab_1
+[1.789s] running install_egg_info
+[1.795s] Copying ../build/lab_1/lab_1.egg-info to /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1-0.0.0-py3.8.egg-info
+[1.798s] running install_scripts
+[1.856s] Installing node script to /lab1_ws/src/install/lab_1/lib/lab_1
+[1.859s] writing list of installed files to '/lab1_ws/src/build/lab_1/install.log'
+[1.921s] Invoked command in '/lab1_ws/src/lab_1' returned '0': PYTHONPATH=/lab1_ws/src/install/lab_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab_1 build --build-base /lab1_ws/src/build/lab_1/build install --prefix /lab1_ws/src/install/lab_1 --record /lab1_ws/src/build/lab_1/install.log --single-version-externally-managed

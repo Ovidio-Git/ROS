@@ -1,0 +1,3 @@
+[console_scripts]
+node = lab_1.node:main
+

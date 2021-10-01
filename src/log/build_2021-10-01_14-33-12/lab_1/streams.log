@@ -1,0 +1,21 @@
+[0.827s] Invoking command in '/lab1_ws/src/lab_1': PYTHONPATH=/lab1_ws/src/install/lab_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab_1 build --build-base /lab1_ws/src/build/lab_1/build install --prefix /lab1_ws/src/install/lab_1 --record /lab1_ws/src/build/lab_1/install.log --single-version-externally-managed
+[1.822s] running egg_info
+[1.832s] writing ../build/lab_1/lab_1.egg-info/PKG-INFO
+[1.839s] writing dependency_links to ../build/lab_1/lab_1.egg-info/dependency_links.txt
+[1.843s] writing entry points to ../build/lab_1/lab_1.egg-info/entry_points.txt
+[1.848s] writing requirements to ../build/lab_1/lab_1.egg-info/requires.txt
+[1.852s] writing top-level names to ../build/lab_1/lab_1.egg-info/top_level.txt
+[1.999s] reading manifest file '../build/lab_1/lab_1.egg-info/SOURCES.txt'
+[2.002s] writing manifest file '../build/lab_1/lab_1.egg-info/SOURCES.txt'
+[2.005s] running build
+[2.006s] running build_py
+[2.007s] running install
+[2.009s] running install_lib
+[2.013s] running install_data
+[2.015s] running install_egg_info
+[2.021s] removing '/lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1-0.0.0-py3.8.egg-info' (and everything under it)
+[2.022s] Copying ../build/lab_1/lab_1.egg-info to /lab1_ws/src/install/lab_1/lib/python3.8/site-packages/lab_1-0.0.0-py3.8.egg-info
+[2.025s] running install_scripts
+[2.079s] Installing node script to /lab1_ws/src/install/lab_1/lib/lab_1
+[2.082s] writing list of installed files to '/lab1_ws/src/build/lab_1/install.log'
+[2.165s] Invoked command in '/lab1_ws/src/lab_1' returned '0': PYTHONPATH=/lab1_ws/src/install/lab_1/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/lab_1 build --build-base /lab1_ws/src/build/lab_1/build install --prefix /lab1_ws/src/install/lab_1 --record /lab1_ws/src/build/lab_1/install.log --single-version-externally-managed
