@@ -1,5 +1,6 @@
 <?xml version="1.0"?>
-  <name>lab_1</name>
+<package format="3">
+<name>lab_1</name>
   <version>0.0.0</version>
   <description>LAB1: Publicador y subscriptor RPM</description>
   <maintainer email="ovidioandraaz@unimagdalena.edu.co">Grupo 2</maintainer>
