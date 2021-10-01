@@ -20,8 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'talker = lab_1.publicador:Run'
-            'listener = lab_1.Subscriptor:Run'
+            'talker = lab_1.publicador:Run',
+            'listener = lab_1.Subscriptor:Run',
         ],
     },
 )
