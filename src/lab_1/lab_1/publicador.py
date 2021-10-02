@@ -22,7 +22,7 @@ class publicador(Node): # creamos una clase llamada publicador la cual va a here
 
 
 def Run():	
-    rclpy.init(args=args) #inicializamos la libreria rclpy
+    rclpy.init(args=None) #inicializamos la libreria rclpy
     nodo = publicador()   #Creamos el nodo
     rclpy.spin(nodo)      
     nodo.destroy_node()   #Realizamos la destrucción de los nodos una vez terminado el programa
