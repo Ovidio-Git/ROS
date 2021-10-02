@@ -7,7 +7,7 @@ class Subscriptor(Node):
 
     def __init__(self):
         super().__init__('nodo')
-        self.subcripcion = self.crear_subcripcion(
+        self.subcripcion = self.create_subscription(   #nos subscribimos al topico llantas para obtener el valor de las RPM
             String,
             'Llantas',
             self.Subscribirse,
@@ -15,11 +15,11 @@ class Subscriptor(Node):
         self.subcripcion  # prevent unused variable warning
 
     def Subscribirse(self, msg):
-        self.get_logger().info('RPM: "%s"' % msg.data)
+        self.get_logger().info('RPM: "%s"' % msg.data) # mostramos el mensaje recibido
 
 
 def Run():
-    rclpy.init(args=args)
+    rclpy.init(args=None) #inicializamos la libreria rclpy
     nodo = Subscriptor()
     rclpy.spin(nodo)
     nodo.destroy_node()   #Realizamos la destrucción de los nodos una vez terminado el programa
