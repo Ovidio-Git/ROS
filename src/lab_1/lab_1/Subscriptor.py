@@ -25,7 +25,7 @@ class Subscriptor(Node):
         radio = r * 0.01 # Convertimos a metros
         velocida_angular = rpm * ((2*math.pi)/60) # calculamos el valor de la velocidad angular 
         velocidad = velocida_angular * radio # calculamos el valor de la velocidad
-        self.get_logger().info('Velocidad del vehiculo:{:.2f}'.format(velocidad)) # mostramos el mensaje recibido
+        self.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(velocidad)) # mostramos el mensaje recibido
 
 
 def Run():
