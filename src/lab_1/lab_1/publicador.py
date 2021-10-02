@@ -6,7 +6,7 @@ class publicador(Node): # creamos una clase llamada publicador la cual va a here
 	
     def __init__(self):
     	super().__init__('nodo') #usamos nuestro constructor con el nombre de nuestro nodo en este caso el nodo que creamos se llama "node"   
-    	self.publicador_ = self.crear_publicador(String, 'Llantas', 10) # llamamos el metodo
+    	self.publicador_ = self.create_publisher(String, 'Llantas', 10) # llamamos el metodo
     	# string para que le de a nuestro mensaje el formato necesario para la transmicion y comunicacion con el nodo, adicional a esto
     	# creamos el topico al que nos subscribiremos al cual llamaremos "Llantas", con una cola de espera de 10
 	
