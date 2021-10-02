@@ -15,7 +15,7 @@ class Subscriptor(Node):
         self.subcripcion  # prevent unused variable warning
 
     def Subscribirse(self, msg):
-        self.get_logger().info('RPM: "%s"' % msg.data) # mostramos el mensaje recibido
+        self.get_logger().info('Publicacion recibida: "%s"' % msg.data) # mostramos el mensaje recibido
 
 
 def Run():
