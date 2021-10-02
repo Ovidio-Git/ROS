@@ -18,7 +18,7 @@ class publicador(Node): # creamos una clase llamada publicador la cual va a here
         msg = String() #realizamos la instanciacion de la clase string
         msg.data = 'RPM: 148' # definimos el mensaje que enviaremos, con el valor de las revoluciones
         self.publicador_.publish(msg)
-        self.get_logger().info('Mensaje Publicado: "%s"' % msg.data) #publicamos el mensaje predefinido
+        self.get_logger().info("%s" % msg.data) #publicamos el mensaje predefinido
 
 
 def Run():	
