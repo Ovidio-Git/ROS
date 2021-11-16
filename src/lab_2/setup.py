@@ -4,7 +4,7 @@ package_name = 'lab_2'
 
 setup(
     name=package_name,
-    version='0.0.0',
+    version='1.0.0',
     packages=[package_name],
     data_files=[
         ('share/ament_index/resource_index/packages',
@@ -14,9 +14,9 @@ setup(
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='root',
-    maintainer_email='ovianza@hotmail.com',
-    description='TODO: Package description',
-    license='TODO: License declaration',
+    maintainer_email='ovidioandraaz@unimagdalena.edu.co',
+    description='Lab2 cliente servidor para comunicacion RPM',
+    license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
