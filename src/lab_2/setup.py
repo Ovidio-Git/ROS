@@ -15,7 +15,7 @@ setup(
     zip_safe=True,
     maintainer='root',
     maintainer_email='ovidioandraaz@unimagdalena.edu.co',
-    description='Lab2 cliente servidor para comunicacion RPM',
+    description='Lab2 cliente servicio para comunicacion RPM',
     license='Apache License 2.0',
     tests_require=['pytest'],
     entry_points={
