@@ -2,10 +2,10 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>lab_2</name>
-  <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="ovianza@hotmail.com">root</maintainer>
-  <license>TODO: License declaration</license>
+  <version>1.0.0</version>
+  <description>Creacion de modelo cliente servidor para comunicacion ROS</description>
+  <maintainer email="ovidioandraaz@unimagdalena-edu.co">root</maintainer>
+  <license>Apache License 2.0</license>
 
   <depend>rclpy</depend>
   <depend>example_interfaces</depend>
