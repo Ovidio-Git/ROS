@@ -3,7 +3,7 @@
 <package format="3">
   <name>lab_2</name>
   <version>1.0.0</version>
-  <description>Creacion de modelo cliente servidor para comunicacion ROS</description>
+  <description>Creacion de modelo cliente servicio para comunicacion ROS</description>
   <maintainer email="ovidioandraaz@unimagdalena-edu.co">root</maintainer>
   <license>Apache License 2.0</license>
 
