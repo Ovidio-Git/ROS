@@ -1,4 +1,4 @@
-import RPM_Interface.srv
+import .RPM_Interface
 import rclpy
 from rclpy.node import Node
 import math 
