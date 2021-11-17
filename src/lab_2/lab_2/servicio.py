@@ -1,16 +1,18 @@
+import RPM_Interface.srv
 import rclpy
 from rclpy.node import Node
+import math 
 
 
 class RPMService(Node):
 
     def __init__(self):
         super().__init__('RPM_service')
-        self.srv = self.create_service(AddTwoInts, 'add_two_ints', self.add_two_ints_callback)
+        self.srv = self.create_service(RPM_Interface, 'rpm', self.RPM_callback)
 
-    def add_two_ints_callback(self, request, response):
-        response.sum = request.a + request.b
-        self.get_logger().info('Incoming request\na: %d b: %d' % (request.a, request.b))
+    def RPM_callback(self, request, response):
+        response.vel = request.rpm * ((2*math.pi)/60) * 0.1
+        self.get_logger().info('RPM: %d' % (request.rpm))
         return response
 
 
