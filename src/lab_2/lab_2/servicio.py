@@ -14,7 +14,7 @@ class RPMService(Node):
         return response
 
 
-def main():
+def Run():
     rclpy.init(args=None)
     RPM_service = RPMService()
     rclpy.spin(RPM_service)
@@ -22,4 +22,4 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    Run()
