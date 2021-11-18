@@ -35,7 +35,7 @@ def Run():
                     'Llamada al servicio fallida %r' % (e,))
             else:
                 RPM_client.get_logger().info(
-                    'RPM: %d velocidad del vehiculo = %d' %
+                    'Actualmente a %d RPM la velocidad del vehiculo es = %d' %
                     (RPM_client.req.a,  response.vel))
             break
 
