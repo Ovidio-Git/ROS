@@ -27,7 +27,7 @@ def Run():
 
     while rclpy.ok():
         rclpy.spin_once(RPM_client)
-        if RPM_service .future.done():
+        if RPM_client.future.done():
             try:
                 response = RPM_client.future.result()
             except Exception as e:
@@ -35,7 +35,7 @@ def Run():
                     'Llamada al servicio fallida %r' % (e,))
             else:
                 minimal_client.get_logger().info(
-                    'resultado for %d vel = %d' %
+                    'RPM: %d velocidad del vehiculo = %d' %
                     (RPM_client.req.a,  response.vel))
             break
 
