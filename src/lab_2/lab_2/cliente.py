@@ -36,7 +36,7 @@ def Run():
             else:
                 minimal_client.get_logger().info(
                     'resultado for %d vel = %d' %
-                    (RPM_client.req.RPM,  response.vel))
+                    (RPM_client.req.a,  response.vel))
             break
 
     RPM_client.destroy_node()
