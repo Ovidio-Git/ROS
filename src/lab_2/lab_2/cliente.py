@@ -20,7 +20,7 @@ class RPMClient(Node):
 
 
 def Run():
-    rclpy.init(args=args)
+    rclpy.init()
 
     RPM_client  = RPMClient()
     RPM_client.send_request()
