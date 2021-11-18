@@ -1,0 +1,41 @@
+[0.998s] Invoking command in '/lab2_ws/src/lab_2': PYTHONPATH=/lab2_ws/install/lab_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab_2 build --build-base /lab2_ws/build/lab_2/build install --prefix /lab2_ws/install/lab_2 --record /lab2_ws/build/lab_2/install.log --single-version-externally-managed
+[1.762s] running egg_info
+[1.764s] creating ../../build/lab_2/lab_2.egg-info
+[1.765s] writing ../../build/lab_2/lab_2.egg-info/PKG-INFO
+[1.766s] writing dependency_links to ../../build/lab_2/lab_2.egg-info/dependency_links.txt
+[1.767s] writing entry points to ../../build/lab_2/lab_2.egg-info/entry_points.txt
+[1.768s] writing requirements to ../../build/lab_2/lab_2.egg-info/requires.txt
+[1.770s] writing top-level names to ../../build/lab_2/lab_2.egg-info/top_level.txt
+[1.797s] writing manifest file '../../build/lab_2/lab_2.egg-info/SOURCES.txt'
+[2.032s] reading manifest file '../../build/lab_2/lab_2.egg-info/SOURCES.txt'
+[2.036s] writing manifest file '../../build/lab_2/lab_2.egg-info/SOURCES.txt'
+[2.042s] running build
+[2.043s] running build_py
+[2.044s] creating /lab2_ws/build/lab_2/build
+[2.044s] creating /lab2_ws/build/lab_2/build/lib
+[2.047s] creating /lab2_ws/build/lab_2/build/lib/lab_2
+[2.048s] copying lab_2/__init__.py -> /lab2_ws/build/lab_2/build/lib/lab_2
+[2.049s] copying lab_2/cliente.py -> /lab2_ws/build/lab_2/build/lib/lab_2
+[2.050s] copying lab_2/servicio.py -> /lab2_ws/build/lab_2/build/lib/lab_2
+[2.051s] running install
+[2.069s] running install_lib
+[2.078s] creating /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2
+[2.079s] copying /lab2_ws/build/lab_2/build/lib/lab_2/__init__.py -> /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2
+[2.080s] copying /lab2_ws/build/lab_2/build/lib/lab_2/cliente.py -> /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2
+[2.081s] copying /lab2_ws/build/lab_2/build/lib/lab_2/servicio.py -> /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2
+[2.083s] byte-compiling /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2/__init__.py to __init__.cpython-38.pyc
+[2.086s] byte-compiling /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2/cliente.py to cliente.cpython-38.pyc
+[2.088s] byte-compiling /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2/servicio.py to servicio.cpython-38.pyc
+[2.098s] running install_data
+[2.108s] creating /lab2_ws/install/lab_2/share/ament_index
+[2.109s] creating /lab2_ws/install/lab_2/share/ament_index/resource_index
+[2.110s] creating /lab2_ws/install/lab_2/share/ament_index/resource_index/packages
+[2.110s] copying resource/lab_2 -> /lab2_ws/install/lab_2/share/ament_index/resource_index/packages
+[2.111s] copying package.xml -> /lab2_ws/install/lab_2/share/lab_2
+[2.112s] running install_egg_info
+[2.124s] Copying ../../build/lab_2/lab_2.egg-info to /lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2-1.0.0-py3.8.egg-info
+[2.126s] running install_scripts
+[2.290s] Installing client script to /lab2_ws/install/lab_2/lib/lab_2
+[2.293s] Installing service script to /lab2_ws/install/lab_2/lib/lab_2
+[2.304s] writing list of installed files to '/lab2_ws/build/lab_2/install.log'
+[2.441s] Invoked command in '/lab2_ws/src/lab_2' returned '0': PYTHONPATH=/lab2_ws/install/lab_2/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/lab_2 build --build-base /lab2_ws/build/lab_2/build install --prefix /lab2_ws/install/lab_2 --record /lab2_ws/build/lab_2/install.log --single-version-externally-managed

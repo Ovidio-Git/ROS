@@ -1,0 +1,72 @@
+[0.000000] (-) TimerEvent: {}
+[0.000416] (-) JobUnselected: {'identifier': 'lab_2'}
+[0.000543] (own_interfaces) JobQueued: {'identifier': 'own_interfaces', 'dependencies': OrderedDict()}
+[0.000618] (own_interfaces) JobStarted: {'identifier': 'own_interfaces'}
+[0.089872] (own_interfaces) JobProgress: {'identifier': 'own_interfaces', 'progress': 'cmake'}
+[0.096753] (-) TimerEvent: {}
+[0.097831] (own_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/lab2_ws/src/own_interfaces', '-DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces'], 'cwd': '/lab2_ws/build/own_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'es_CO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/lab2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/lab2_ws/src/lab_2/lab_2/install:/lab2_ws/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('SUDO_USER', 'owidio'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/lab2_ws/build/own_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lab2_ws/install/lab_2/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic')]), 'shell': False}
+[0.188382] (own_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.189856] (own_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.1.4 (/opt/ros/galactic/share/ament_cmake_core/cmake)\n'}
+[0.197241] (-) TimerEvent: {}
+[0.259396] (own_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.260037] (own_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.299822] (-) TimerEvent: {}
+[0.405450] (-) TimerEvent: {}
+[0.430258] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.443422] (own_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.506052] (-) TimerEvent: {}
+[0.611863] (-) TimerEvent: {}
+[0.719963] (-) TimerEvent: {}
+[0.824613] (-) TimerEvent: {}
+[0.886964] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.925037] (-) TimerEvent: {}
+[1.023411] (own_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.028053] (-) TimerEvent: {}
+[1.136048] (-) TimerEvent: {}
+[1.244386] (-) TimerEvent: {}
+[1.352345] (-) TimerEvent: {}
+[1.460778] (-) TimerEvent: {}
+[1.541447] (own_interfaces) StderrLine: {'line': b'CMake Error at /opt/ros/galactic/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):\n'}
+[1.542018] (own_interfaces) StderrLine: {'line': b'  execute_process(/usr/bin/python3 -m rosidl_adapter --package-name\n'}
+[1.542196] (own_interfaces) StderrLine: {'line': b'  own_interfaces --arguments-file\n'}
+[1.544177] (own_interfaces) StderrLine: {'line': b'  /lab2_ws/build/own_interfaces/rosidl_adapter__arguments__own_interfaces.json\n'}
+[1.544465] (own_interfaces) StderrLine: {'line': b'  --output-dir /lab2_ws/build/own_interfaces/rosidl_adapter/own_interfaces\n'}
+[1.544722] (own_interfaces) StderrLine: {'line': b'  --output-file\n'}
+[1.544860] (own_interfaces) StderrLine: {'line': b'  /lab2_ws/build/own_interfaces/rosidl_adapter/own_interfaces.idls) returned\n'}
+[1.544982] (own_interfaces) StderrLine: {'line': b'  error code 1:\n'}
+[1.545099] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.545217] (own_interfaces) StderrLine: {'line': b'  Traceback (most recent call last):\n'}
+[1.545333] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.545447] (own_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main\n'}
+[1.545665] (own_interfaces) StderrLine: {'line': b'      return _run_code(code, main_globals, None,\n'}
+[1.545803] (own_interfaces) StderrLine: {'line': b'    File "/usr/lib/python3.8/runpy.py", line 87, in _run_code\n'}
+[1.545933] (own_interfaces) StderrLine: {'line': b'      exec(code, run_globals)\n'}
+[1.546061] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>\n'}
+[1.546189] (own_interfaces) StderrLine: {'line': b'      sys.exit(main())\n'}
+[1.546315] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main\n'}
+[1.546510] (own_interfaces) StderrLine: {'line': b'      abs_idl_file = convert_to_idl(\n'}
+[1.546680] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl\n'}
+[1.546811] (own_interfaces) StderrLine: {'line': b'      return convert_msg_to_idl(\n'}
+[1.546937] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl\n'}
+[1.547064] (own_interfaces) StderrLine: {'line': b'      msg = parse_message_string(package_name, input_file.stem, content)\n'}
+[1.547189] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 540, in parse_message_string\n'}
+[1.547312] (own_interfaces) StderrLine: {'line': b'      msg = MessageSpecification(pkg_name, msg_name, fields, constants)\n'}
+[1.547529] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 387, in __init__\n'}
+[1.547674] (own_interfaces) StderrLine: {'line': b'      self.base_type = BaseType(\n'}
+[1.547794] (own_interfaces) StderrLine: {'line': b'    File "/opt/ros/galactic/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__\n'}
+[1.547910] (own_interfaces) StderrLine: {'line': b'      raise InvalidResourceName(\n'}
+[1.548024] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.548138] (own_interfaces) StderrLine: {'line': b"  rosidl_adapter.parser.InvalidResourceName: 'vel' is an invalid message\n"}
+[1.548251] (own_interfaces) StderrLine: {'line': b"  name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'\n"}
+[1.548365] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.548606] (own_interfaces) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.548732] (own_interfaces) StderrLine: {'line': b'  /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)\n'}
+[1.548850] (own_interfaces) StderrLine: {'line': b'  CMakeLists.txt:10 (rosidl_generate_interfaces)\n'}
+[1.548965] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.549079] (own_interfaces) StderrLine: {'line': b'\n'}
+[1.556841] (own_interfaces) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.557165] (own_interfaces) StdoutLine: {'line': b'See also "/lab2_ws/build/own_interfaces/CMakeFiles/CMakeOutput.log".\n'}
+[1.568052] (-) TimerEvent: {}
+[1.574353] (own_interfaces) CommandEnded: {'returncode': 1}
+[1.660878] (own_interfaces) JobEnded: {'identifier': 'own_interfaces', 'rc': 1}
+[1.667653] (-) EventReactorShutdown: {}

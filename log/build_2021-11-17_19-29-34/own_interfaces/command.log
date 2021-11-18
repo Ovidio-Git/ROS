@@ -1,0 +1,2 @@
+Invoking command in '/lab2_ws/build/own_interfaces': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces
+Invoked command in '/lab2_ws/build/own_interfaces' returned '1': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces

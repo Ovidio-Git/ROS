@@ -1,0 +1,18 @@
+[0.084s] Invoking command in '/lab2_ws/build/own_interfaces': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces
+[0.176s] -- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)
+[0.177s] -- Found ament_cmake_core: 1.1.4 (/opt/ros/galactic/share/ament_cmake_core/cmake)
+[0.241s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.241s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.424s] -- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.922s] CMake Error at /opt/ros/galactic/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:93 (message):
+[0.922s]   rosidl_generate_interfaces() the passed file 'msg/vel.msg' doesn't exist
+[0.923s]   relative to the CMAKE_CURRENT_SOURCE_DIR '/lab2_ws/src/own_interfaces'
+[0.923s] Call Stack (most recent call first):
+[0.923s]   CMakeLists.txt:10 (rosidl_generate_interfaces)
+[0.924s] 
+[0.924s] 
+[0.927s] -- Configuring incomplete, errors occurred!
+[0.927s] See also "/lab2_ws/build/own_interfaces/CMakeFiles/CMakeOutput.log".
+[0.949s] Invoked command in '/lab2_ws/build/own_interfaces' returned '1': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces

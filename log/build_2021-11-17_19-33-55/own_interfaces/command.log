@@ -1,0 +1,6 @@
+Invoking command in '/lab2_ws/build/own_interfaces': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces
+Invoked command in '/lab2_ws/build/own_interfaces' returned '0': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake /lab2_ws/src/own_interfaces -DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces
+Invoking command in '/lab2_ws/build/own_interfaces': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake --build /lab2_ws/build/own_interfaces -- -j1 -l1
+Invoked command in '/lab2_ws/build/own_interfaces' returned '0': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake --build /lab2_ws/build/own_interfaces -- -j1 -l1
+Invoking command in '/lab2_ws/build/own_interfaces': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake --install /lab2_ws/build/own_interfaces
+Invoked command in '/lab2_ws/build/own_interfaces' returned '0': CMAKE_PREFIX_PATH=/lab2_ws/install/lab_2:/opt/ros/galactic /usr/bin/cmake --install /lab2_ws/build/own_interfaces

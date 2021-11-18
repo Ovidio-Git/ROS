@@ -1,0 +1,4 @@
+[console_scripts]
+client = lab_2.cliente:Run
+service = lab_2.servicio:Run
+

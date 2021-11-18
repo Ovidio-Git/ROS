@@ -1,0 +1,504 @@
+[0.000000] (-) TimerEvent: {}
+[0.000509] (-) JobUnselected: {'identifier': 'lab_2'}
+[0.000605] (own_interfaces) JobQueued: {'identifier': 'own_interfaces', 'dependencies': OrderedDict()}
+[0.000660] (own_interfaces) JobStarted: {'identifier': 'own_interfaces'}
+[0.086229] (own_interfaces) JobProgress: {'identifier': 'own_interfaces', 'progress': 'cmake'}
+[0.098013] (-) TimerEvent: {}
+[0.099115] (own_interfaces) Command: {'cmd': ['/usr/bin/cmake', '/lab2_ws/src/own_interfaces', '-DCMAKE_INSTALL_PREFIX=/lab2_ws/install/own_interfaces'], 'cwd': '/lab2_ws/build/own_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'es_CO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/lab2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/lab2_ws/src/lab_2/lab_2/install:/lab2_ws/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('SUDO_USER', 'owidio'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/lab2_ws/build/own_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lab2_ws/install/lab_2/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic')]), 'shell': False}
+[0.199745] (own_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.1.1 (/opt/ros/galactic/share/rosidl_default_generators/cmake)\n'}
+[0.200351] (-) TimerEvent: {}
+[0.201757] (own_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_core: 1.1.4 (/opt/ros/galactic/share/ament_cmake_core/cmake)\n'}
+[0.272460] (own_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.273257] (own_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.302432] (-) TimerEvent: {}
+[0.409651] (-) TimerEvent: {}
+[0.446940] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.464061] (own_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 2.2.1 (/opt/ros/galactic/share/rosidl_adapter/cmake)\n'}
+[0.514708] (-) TimerEvent: {}
+[0.617432] (-) TimerEvent: {}
+[0.719168] (-) TimerEvent: {}
+[0.825852] (-) TimerEvent: {}
+[0.892148] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.934001] (-) TimerEvent: {}
+[1.032649] (own_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[1.037666] (-) TimerEvent: {}
+[1.138754] (-) TimerEvent: {}
+[1.246194] (-) TimerEvent: {}
+[1.353951] (-) TimerEvent: {}
+[1.459147] (-) TimerEvent: {}
+[1.523369] (own_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/galactic/share/ament_cmake_ros/cmake)\n'}
+[1.559716] (-) TimerEvent: {}
+[1.662677] (-) TimerEvent: {}
+[1.765877] (-) TimerEvent: {}
+[1.871121] (-) TimerEvent: {}
+[1.959946] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.971597] (-) TimerEvent: {}
+[2.031502] (own_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.072897] (-) TimerEvent: {}
+[2.161080] (own_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.174361] (-) TimerEvent: {}
+[2.177601] (own_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/galactic/share/python_cmake_module/cmake)\n'}
+[2.274923] (-) TimerEvent: {}
+[2.281265] (own_interfaces) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[2.282277] (own_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.282839] (own_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[2.283322] (own_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[2.369069] (own_interfaces) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[2.386676] (-) TimerEvent: {}
+[2.490085] (-) TimerEvent: {}
+[2.569352] (own_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.10.6 (/opt/ros/galactic/share/ament_lint_auto/cmake)\n'}
+[2.590749] (-) TimerEvent: {}
+[2.692882] (-) TimerEvent: {}
+[2.796017] (-) TimerEvent: {}
+[2.800101] (own_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.813582] (own_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.822998] (own_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.845461] (own_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.898522] (-) TimerEvent: {}
+[2.979670] (own_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[2.990831] (own_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /lab2_ws/build/own_interfaces\n'}
+[3.006020] (-) TimerEvent: {}
+[3.012821] (own_interfaces) CommandEnded: {'returncode': 0}
+[3.023439] (own_interfaces) JobProgress: {'identifier': 'own_interfaces', 'progress': 'build'}
+[3.023516] (own_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/lab2_ws/build/own_interfaces', '--', '-j1', '-l1'], 'cwd': '/lab2_ws/build/own_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'es_CO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/lab2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/lab2_ws/src/lab_2/lab_2/install:/lab2_ws/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('SUDO_USER', 'owidio'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/lab2_ws/build/own_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lab2_ws/install/lab_2/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic')]), 'shell': False}
+[3.106930] (-) TimerEvent: {}
+[3.208994] (-) TimerEvent: {}
+[3.219583] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__cpp\x1b[0m\n'}
+[3.257172] (own_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.309403] (-) TimerEvent: {}
+[3.410490] (-) TimerEvent: {}
+[3.522083] (-) TimerEvent: {}
+[3.630688] (-) TimerEvent: {}
+[3.734788] (-) TimerEvent: {}
+[3.842116] (-) TimerEvent: {}
+[3.944617] (-) TimerEvent: {}
+[4.045959] (-) TimerEvent: {}
+[4.153852] (-) TimerEvent: {}
+[4.254848] (-) TimerEvent: {}
+[4.278635] (own_interfaces) StdoutLine: {'line': b'[  2%] Built target own_interfaces__cpp\n'}
+[4.325456] (own_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.358279] (-) TimerEvent: {}
+[4.467239] (-) TimerEvent: {}
+[4.574151] (-) TimerEvent: {}
+[4.681979] (-) TimerEvent: {}
+[4.790257] (-) TimerEvent: {}
+[4.902793] (-) TimerEvent: {}
+[5.013865] (-) TimerEvent: {}
+[5.121861] (-) TimerEvent: {}
+[5.218186] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[5.222264] (-) TimerEvent: {}
+[5.330074] (-) TimerEvent: {}
+[5.341766] (own_interfaces) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/own_interfaces/msg/vel__type_support.cpp.o\x1b[0m\n'}
+[5.430667] (-) TimerEvent: {}
+[5.532346] (-) TimerEvent: {}
+[5.634324] (-) TimerEvent: {}
+[5.735599] (-) TimerEvent: {}
+[5.838780] (-) TimerEvent: {}
+[5.955511] (-) TimerEvent: {}
+[6.058348] (-) TimerEvent: {}
+[6.161665] (-) TimerEvent: {}
+[6.270111] (-) TimerEvent: {}
+[6.380300] (-) TimerEvent: {}
+[6.485729] (-) TimerEvent: {}
+[6.591833] (-) TimerEvent: {}
+[6.692802] (-) TimerEvent: {}
+[6.699437] (own_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/own_interfaces/srv/rp_mvel__type_support.cpp.o\x1b[0m\n'}
+[6.795331] (-) TimerEvent: {}
+[6.905984] (-) TimerEvent: {}
+[7.011019] (-) TimerEvent: {}
+[7.117669] (-) TimerEvent: {}
+[7.225946] (-) TimerEvent: {}
+[7.335890] (-) TimerEvent: {}
+[7.441838] (-) TimerEvent: {}
+[7.549768] (-) TimerEvent: {}
+[7.629145] (own_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32m\x1b[1mLinking CXX shared library libown_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[7.651929] (-) TimerEvent: {}
+[7.753973] (-) TimerEvent: {}
+[7.784244] (own_interfaces) StdoutLine: {'line': b'[ 12%] Built target own_interfaces__rosidl_typesupport_cpp\n'}
+[7.821278] (own_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[7.859049] (-) TimerEvent: {}
+[7.966126] (-) TimerEvent: {}
+[8.073733] (-) TimerEvent: {}
+[8.182877] (-) TimerEvent: {}
+[8.283927] (-) TimerEvent: {}
+[8.395945] (-) TimerEvent: {}
+[8.499208] (-) TimerEvent: {}
+[8.601792] (-) TimerEvent: {}
+[8.641999] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_generator_c\x1b[0m\n'}
+[8.679360] (own_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_generator_c.dir/rosidl_generator_c/own_interfaces/msg/detail/vel__functions.c.o\x1b[0m\n'}
+[8.702001] (-) TimerEvent: {}
+[8.813796] (-) TimerEvent: {}
+[8.823477] (own_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_generator_c.dir/rosidl_generator_c/own_interfaces/srv/detail/rp_mvel__functions.c.o\x1b[0m\n'}
+[8.914275] (-) TimerEvent: {}
+[8.956912] (own_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32m\x1b[1mLinking C shared library libown_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[9.017797] (-) TimerEvent: {}
+[9.076663] (own_interfaces) StdoutLine: {'line': b'[ 23%] Built target own_interfaces__rosidl_generator_c\n'}
+[9.109322] (own_interfaces) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[9.118463] (-) TimerEvent: {}
+[9.222099] (-) TimerEvent: {}
+[9.329716] (-) TimerEvent: {}
+[9.437633] (-) TimerEvent: {}
+[9.545932] (-) TimerEvent: {}
+[9.652311] (-) TimerEvent: {}
+[9.758396] (-) TimerEvent: {}
+[9.830219] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[9.859327] (-) TimerEvent: {}
+[9.884879] (own_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/own_interfaces/msg/detail/vel__type_support.c.o\x1b[0m\n'}
+[9.959621] (-) TimerEvent: {}
+[10.001756] (own_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/own_interfaces/srv/detail/rp_mvel__type_support.c.o\x1b[0m\n'}
+[10.061836] (-) TimerEvent: {}
+[10.107490] (own_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32m\x1b[1mLinking C shared library libown_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[10.165977] (-) TimerEvent: {}
+[10.212501] (own_interfaces) StdoutLine: {'line': b'[ 33%] Built target own_interfaces__rosidl_typesupport_introspection_c\n'}
+[10.244438] (own_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[10.273981] (-) TimerEvent: {}
+[10.381963] (-) TimerEvent: {}
+[10.489986] (-) TimerEvent: {}
+[10.597789] (-) TimerEvent: {}
+[10.702685] (-) TimerEvent: {}
+[10.813966] (-) TimerEvent: {}
+[10.918002] (-) TimerEvent: {}
+[11.018697] (-) TimerEvent: {}
+[11.022007] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[11.119887] (-) TimerEvent: {}
+[11.217399] (own_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/own_interfaces/msg/detail/dds_fastrtps/vel__type_support.cpp.o\x1b[0m\n'}
+[11.221729] (-) TimerEvent: {}
+[11.326177] (-) TimerEvent: {}
+[11.427865] (-) TimerEvent: {}
+[11.530667] (-) TimerEvent: {}
+[11.637857] (-) TimerEvent: {}
+[11.746082] (-) TimerEvent: {}
+[11.853871] (-) TimerEvent: {}
+[11.961743] (-) TimerEvent: {}
+[12.067228] (-) TimerEvent: {}
+[12.168776] (-) TimerEvent: {}
+[12.273871] (-) TimerEvent: {}
+[12.378046] (-) TimerEvent: {}
+[12.482077] (-) TimerEvent: {}
+[12.487728] (own_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/own_interfaces/srv/detail/dds_fastrtps/rp_mvel__type_support.cpp.o\x1b[0m\n'}
+[12.583303] (-) TimerEvent: {}
+[12.690183] (-) TimerEvent: {}
+[12.798206] (-) TimerEvent: {}
+[12.905766] (-) TimerEvent: {}
+[13.013804] (-) TimerEvent: {}
+[13.121743] (-) TimerEvent: {}
+[13.229763] (-) TimerEvent: {}
+[13.334923] (-) TimerEvent: {}
+[13.441784] (-) TimerEvent: {}
+[13.549824] (-) TimerEvent: {}
+[13.660444] (-) TimerEvent: {}
+[13.751747] (own_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libown_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[13.765916] (-) TimerEvent: {}
+[13.873926] (-) TimerEvent: {}
+[13.978892] (-) TimerEvent: {}
+[14.062979] (own_interfaces) StdoutLine: {'line': b'[ 43%] Built target own_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[14.086430] (-) TimerEvent: {}
+[14.095299] (own_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[14.186823] (-) TimerEvent: {}
+[14.290622] (-) TimerEvent: {}
+[14.398139] (-) TimerEvent: {}
+[14.506202] (-) TimerEvent: {}
+[14.613809] (-) TimerEvent: {}
+[14.721696] (-) TimerEvent: {}
+[14.829990] (-) TimerEvent: {}
+[14.839650] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[14.917398] (own_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/own_interfaces/msg/detail/vel__type_support_c.cpp.o\x1b[0m\n'}
+[14.930383] (-) TimerEvent: {}
+[15.043462] (-) TimerEvent: {}
+[15.149902] (-) TimerEvent: {}
+[15.257881] (-) TimerEvent: {}
+[15.381880] (-) TimerEvent: {}
+[15.485633] (-) TimerEvent: {}
+[15.590687] (-) TimerEvent: {}
+[15.697803] (-) TimerEvent: {}
+[15.805987] (-) TimerEvent: {}
+[15.907079] (-) TimerEvent: {}
+[15.952419] (own_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/own_interfaces/srv/detail/rp_mvel__type_support_c.cpp.o\x1b[0m\n'}
+[16.010242] (-) TimerEvent: {}
+[16.117855] (-) TimerEvent: {}
+[16.225807] (-) TimerEvent: {}
+[16.333640] (-) TimerEvent: {}
+[16.441721] (-) TimerEvent: {}
+[16.546628] (-) TimerEvent: {}
+[16.653825] (-) TimerEvent: {}
+[16.762015] (-) TimerEvent: {}
+[16.869724] (-) TimerEvent: {}
+[16.977880] (-) TimerEvent: {}
+[16.983997] (own_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libown_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[17.085824] (-) TimerEvent: {}
+[17.193869] (-) TimerEvent: {}
+[17.252265] (own_interfaces) StdoutLine: {'line': b'[ 53%] Built target own_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[17.284700] (own_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[17.298369] (-) TimerEvent: {}
+[17.405691] (-) TimerEvent: {}
+[17.514114] (-) TimerEvent: {}
+[17.621640] (-) TimerEvent: {}
+[17.722738] (-) TimerEvent: {}
+[17.825804] (-) TimerEvent: {}
+[17.933722] (-) TimerEvent: {}
+[17.975863] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[18.038545] (-) TimerEvent: {}
+[18.043676] (own_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/own_interfaces/msg/detail/vel__type_support.cpp.o\x1b[0m\n'}
+[18.138945] (-) TimerEvent: {}
+[18.245803] (-) TimerEvent: {}
+[18.352673] (-) TimerEvent: {}
+[18.458951] (-) TimerEvent: {}
+[18.565946] (-) TimerEvent: {}
+[18.673824] (-) TimerEvent: {}
+[18.781740] (-) TimerEvent: {}
+[18.853460] (own_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/own_interfaces/srv/detail/rp_mvel__type_support.cpp.o\x1b[0m\n'}
+[18.889926] (-) TimerEvent: {}
+[18.997907] (-) TimerEvent: {}
+[19.105848] (-) TimerEvent: {}
+[19.210541] (-) TimerEvent: {}
+[19.317762] (-) TimerEvent: {}
+[19.426080] (-) TimerEvent: {}
+[19.533665] (-) TimerEvent: {}
+[19.637718] (-) TimerEvent: {}
+[19.663360] (own_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libown_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[19.738307] (-) TimerEvent: {}
+[19.803813] (own_interfaces) StdoutLine: {'line': b'[ 64%] Built target own_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[19.835183] (own_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[19.838621] (-) TimerEvent: {}
+[19.941836] (-) TimerEvent: {}
+[20.049902] (-) TimerEvent: {}
+[20.157903] (-) TimerEvent: {}
+[20.262931] (-) TimerEvent: {}
+[20.370382] (-) TimerEvent: {}
+[20.475967] (-) TimerEvent: {}
+[20.481260] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[20.535998] (own_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/own_interfaces/msg/vel__type_support.cpp.o\x1b[0m\n'}
+[20.577867] (-) TimerEvent: {}
+[20.627866] (own_interfaces) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/own_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/own_interfaces/srv/rp_mvel__type_support.cpp.o\x1b[0m\n'}
+[20.678273] (-) TimerEvent: {}
+[20.723643] (own_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libown_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[20.779252] (-) TimerEvent: {}
+[20.847913] (own_interfaces) StdoutLine: {'line': b'[ 74%] Built target own_interfaces__rosidl_typesupport_c\n'}
+[20.879907] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces\x1b[0m\n'}
+[20.880279] (-) TimerEvent: {}
+[20.921784] (own_interfaces) StdoutLine: {'line': b'[ 74%] Built target own_interfaces\n'}
+[20.965316] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__py\x1b[0m\n'}
+[20.982371] (-) TimerEvent: {}
+[21.000826] (own_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[21.090063] (-) TimerEvent: {}
+[21.198731] (-) TimerEvent: {}
+[21.305895] (-) TimerEvent: {}
+[21.413846] (-) TimerEvent: {}
+[21.515092] (-) TimerEvent: {}
+[21.616632] (-) TimerEvent: {}
+[21.722302] (-) TimerEvent: {}
+[21.827203] (-) TimerEvent: {}
+[21.928146] (-) TimerEvent: {}
+[22.030462] (-) TimerEvent: {}
+[22.131635] (-) TimerEvent: {}
+[22.237922] (-) TimerEvent: {}
+[22.345997] (-) TimerEvent: {}
+[22.454191] (-) TimerEvent: {}
+[22.562074] (-) TimerEvent: {}
+[22.666479] (-) TimerEvent: {}
+[22.768096] (-) TimerEvent: {}
+[22.869915] (-) TimerEvent: {}
+[22.971977] (-) TimerEvent: {}
+[23.058551] (own_interfaces) StdoutLine: {'line': b'[ 76%] Built target own_interfaces__py\n'}
+[23.075810] (-) TimerEvent: {}
+[23.093417] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__python\x1b[0m\n'}
+[23.177106] (-) TimerEvent: {}
+[23.278677] (-) TimerEvent: {}
+[23.388332] (-) TimerEvent: {}
+[23.392842] (own_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__python.dir/rosidl_generator_py/own_interfaces/msg/_vel_s.c.o\x1b[0m\n'}
+[23.489058] (-) TimerEvent: {}
+[23.590557] (-) TimerEvent: {}
+[23.698351] (-) TimerEvent: {}
+[23.714111] (own_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__python.dir/rosidl_generator_py/own_interfaces/srv/_rp_mvel_s.c.o\x1b[0m\n'}
+[23.806381] (-) TimerEvent: {}
+[23.914136] (-) TimerEvent: {}
+[23.988967] (own_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/own_interfaces/libown_interfaces__python.so\x1b[0m\n'}
+[24.015778] (-) TimerEvent: {}
+[24.118003] (-) TimerEvent: {}
+[24.129944] (own_interfaces) StdoutLine: {'line': b'[ 84%] Built target own_interfaces__python\n'}
+[24.168802] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[24.221852] (-) TimerEvent: {}
+[24.227598] (own_interfaces) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/own_interfaces/_own_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[24.323157] (-) TimerEvent: {}
+[24.430168] (-) TimerEvent: {}
+[24.487182] (own_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/own_interfaces/own_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.538080] (-) TimerEvent: {}
+[24.597804] (own_interfaces) StdoutLine: {'line': b'[ 89%] Built target own_interfaces__rosidl_typesupport_c__pyext\n'}
+[24.629664] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[24.643053] (-) TimerEvent: {}
+[24.690004] (own_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/own_interfaces/_own_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[24.743703] (-) TimerEvent: {}
+[24.849791] (-) TimerEvent: {}
+[24.948854] (own_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/own_interfaces/own_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[24.951758] (-) TimerEvent: {}
+[25.053712] (-) TimerEvent: {}
+[25.150748] (own_interfaces) StdoutLine: {'line': b'[ 94%] Built target own_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[25.153981] (-) TimerEvent: {}
+[25.183656] (own_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target own_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[25.239663] (own_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/own_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/own_interfaces/_own_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[25.255316] (-) TimerEvent: {}
+[25.363152] (-) TimerEvent: {}
+[25.465845] (-) TimerEvent: {}
+[25.491502] (own_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/own_interfaces/own_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[25.567726] (-) TimerEvent: {}
+[25.607672] (own_interfaces) StdoutLine: {'line': b'[100%] Built target own_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[25.647478] (own_interfaces) CommandEnded: {'returncode': 0}
+[25.674374] (-) TimerEvent: {}
+[25.775518] (-) TimerEvent: {}
+[25.876699] (-) TimerEvent: {}
+[25.959269] (own_interfaces) JobProgress: {'identifier': 'own_interfaces', 'progress': 'install'}
+[25.977990] (-) TimerEvent: {}
+[25.991524] (own_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/lab2_ws/build/own_interfaces'], 'cwd': '/lab2_ws/build/own_interfaces', 'env': OrderedDict([('SUDO_GID', '1000'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/root'), ('USER', 'root'), ('LC_TIME', 'es_CO.UTF-8'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib'), ('HOME', '/root'), ('OLDPWD', '/lab2_ws/src'), ('ROS_PYTHON_VERSION', '3'), ('LC_MONETARY', 'es_CO.UTF-8'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/lab2_ws/src/lab_2/lab_2/install:/lab2_ws/install'), ('SUDO_UID', '1000'), ('ROS_DISTRO', 'galactic'), ('LOGNAME', 'root'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/galactic/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin'), ('LC_ADDRESS', 'es_CO.UTF-8'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'es_CO.UTF-8'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SUDO_COMMAND', '/bin/bash'), ('AMENT_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic'), ('SHELL', '/bin/bash'), ('LC_NAME', 'es_CO.UTF-8'), ('SUDO_USER', 'owidio'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'es_CO.UTF-8'), ('LC_IDENTIFICATION', 'es_CO.UTF-8'), ('PWD', '/lab2_ws/build/own_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/lab2_ws/install/lab_2/lib/python3.8/site-packages:/opt/ros/galactic/lib/python3.8/site-packages'), ('LC_NUMERIC', 'es_CO.UTF-8'), ('LC_PAPER', 'es_CO.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/lab2_ws/install/lab_2:/opt/ros/galactic')]), 'shell': False}
+[26.027346] (own_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[26.035016] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/ament_index/resource_index/rosidl_interfaces/own_interfaces\n'}
+[26.035999] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.036640] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.037241] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/vel.h\n'}
+[26.037805] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.038430] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__functions.h\n'}
+[26.039872] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__functions.c\n'}
+[26.040628] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__struct.h\n'}
+[26.041313] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__type_support.h\n'}
+[26.042056] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[26.042650] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.043270] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.043911] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__type_support.h\n'}
+[26.044556] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__functions.h\n'}
+[26.045314] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__functions.c\n'}
+[26.046021] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__struct.h\n'}
+[26.046686] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/rp_mvel.h\n'}
+[26.047551] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/library_path.sh\n'}
+[26.048905] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/library_path.dsv\n'}
+[26.051256] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_generator_c.so\n'}
+[26.052709] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_generator_c.so" to ""\n'}
+[26.053679] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.054171] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.054639] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.055141] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__rosidl_typesupport_fastrtps_c.h\n'}
+[26.055836] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[26.056561] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.057026] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.057527] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__rosidl_typesupport_fastrtps_c.h\n'}
+[26.058463] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[26.059818] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[26.062444] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.063015] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.063530] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[26.064138] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.064896] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.065966] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/dds_fastrtps\n'}
+[26.066766] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.067336] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.067822] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[26.068525] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/dds_fastrtps\n'}
+[26.069451] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[26.070826] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[26.078018] (-) TimerEvent: {}
+[26.079304] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.079602] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.079745] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.080000] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__type_support.c\n'}
+[26.080147] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__rosidl_typesupport_introspection_c.h\n'}
+[26.080286] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[26.080422] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.080554] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.080686] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__type_support.c\n'}
+[26.080901] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__rosidl_typesupport_introspection_c.h\n'}
+[26.083507] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[26.083892] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[26.085112] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_c.so\n'}
+[26.085474] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[26.086067] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.086518] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.087477] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.087805] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__struct.hpp\n'}
+[26.088804] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__traits.hpp\n'}
+[26.089062] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__builder.hpp\n'}
+[26.090095] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/vel.hpp\n'}
+[26.090645] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.092401] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/rp_mvel.hpp\n'}
+[26.097793] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.098020] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__traits.hpp\n'}
+[26.098160] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__builder.hpp\n'}
+[26.098287] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__struct.hpp\n'}
+[26.098516] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces\n'}
+[26.098663] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg\n'}
+[26.098798] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail\n'}
+[26.098932] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__type_support.cpp\n'}
+[26.099066] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/msg/detail/vel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.099196] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv\n'}
+[26.099400] (own_interfaces) StdoutLine: {'line': b'-- Up-to-date: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail\n'}
+[26.099551] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__rosidl_typesupport_introspection_cpp.hpp\n'}
+[26.099712] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/include/own_interfaces/srv/detail/rp_mvel__type_support.cpp\n'}
+[26.102475] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[26.102784] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[26.102945] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_cpp.so\n'}
+[26.105880] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[26.106616] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/pythonpath.sh\n'}
+[26.107482] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/pythonpath.dsv\n'}
+[26.108522] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/__init__.py\n'}
+[26.179135] (-) TimerEvent: {}
+[26.203818] (own_interfaces) StdoutLine: {'line': b"Compiling '/lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/__init__.py'...\n"}
+[26.221022] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/msg\n'}
+[26.222379] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/msg/__init__.py\n'}
+[26.223110] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/msg/_vel_s.c\n'}
+[26.223801] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/msg/_vel.py\n'}
+[26.224686] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/srv\n'}
+[26.225249] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/srv/__init__.py\n'}
+[26.225984] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/srv/_rp_mvel.py\n'}
+[26.226731] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/srv/_rp_mvel_s.c\n'}
+[26.227895] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.229513] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.230583] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.234264] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.235312] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[26.236843] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/python3.8/site-packages/own_interfaces/own_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[26.237653] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/lib/libown_interfaces__python.so\n'}
+[26.238899] (own_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/lab2_ws/install/own_interfaces/lib/libown_interfaces__python.so" to ""\n'}
+[26.239760] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/msg/Vel.idl\n'}
+[26.240699] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/srv/RPMvel.idl\n'}
+[26.241560] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/msg/Vel.msg\n'}
+[26.242395] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/srv/RPMvel.srv\n'}
+[26.248813] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/srv/RPMvel_Request.msg\n'}
+[26.250385] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/srv/RPMvel_Response.msg\n'}
+[26.251381] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/ament_index/resource_index/package_run_dependencies/own_interfaces\n'}
+[26.252392] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/ament_index/resource_index/parent_prefix_path/own_interfaces\n'}
+[26.253273] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/ament_prefix_path.sh\n'}
+[26.254938] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/ament_prefix_path.dsv\n'}
+[26.255809] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/path.sh\n'}
+[26.256574] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/environment/path.dsv\n'}
+[26.257377] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/local_setup.bash\n'}
+[26.258185] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/local_setup.sh\n'}
+[26.259010] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/local_setup.zsh\n'}
+[26.259863] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/local_setup.dsv\n'}
+[26.260674] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/package.dsv\n'}
+[26.261878] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/ament_index/resource_index/packages/own_interfaces\n'}
+[26.262936] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_generator_cExport.cmake\n'}
+[26.263803] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[26.267527] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[26.268500] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[26.269443] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[26.270304] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[26.271204] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_generator_cppExport.cmake\n'}
+[26.272302] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[26.273166] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[26.274104] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[26.274995] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[26.283133] (-) TimerEvent: {}
+[26.284283] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[26.285209] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[26.286630] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[26.287600] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[26.288481] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[26.289331] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[26.290216] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[26.291076] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfacesConfig.cmake\n'}
+[26.291734] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/cmake/own_interfacesConfig-version.cmake\n'}
+[26.292544] (own_interfaces) StdoutLine: {'line': b'-- Installing: /lab2_ws/install/own_interfaces/share/own_interfaces/package.xml\n'}
+[26.311639] (own_interfaces) CommandEnded: {'returncode': 0}
+[26.383658] (-) TimerEvent: {}
+[26.484582] (-) TimerEvent: {}
+[26.585889] (-) TimerEvent: {}
+[26.690324] (-) TimerEvent: {}
+[26.726472] (own_interfaces) JobEnded: {'identifier': 'own_interfaces', 'rc': 0}
+[26.734208] (-) EventReactorShutdown: {}

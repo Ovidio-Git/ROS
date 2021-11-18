@@ -1,0 +1,7 @@
+{
+  "package_name": "own_interfaces",
+  "non_idl_tuples": [
+    "/lab2_ws/src/own_interfaces:msg/Vel.msg",
+    "/lab2_ws/src/own_interfaces:srv/RPMvel.srv"
+  ]
+}

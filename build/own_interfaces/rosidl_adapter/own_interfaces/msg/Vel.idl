@@ -1,0 +1,12 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from own_interfaces/msg/Vel.msg
+// generated code does not contain a copyright notice
+
+
+module own_interfaces {
+  module msg {
+    struct Vel {
+      double vel;
+    };
+  };
+};

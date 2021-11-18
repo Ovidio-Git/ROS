@@ -1,0 +1,10 @@
+  File "/lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2/cliente.py", line 3
+    import .RPM_Interface
+           ^
+SyntaxError: invalid syntax
+
+  File "/lab2_ws/install/lab_2/lib/python3.8/site-packages/lab_2/servicio.py", line 1
+    import .RPM_Interface
+           ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from own_interfaces/srv/RPMvel.srv
+// generated code does not contain a copyright notice
+
+
+module own_interfaces {
+  module srv {
+    struct RPMvel_Request {
+      int64 rpm;
+
+      float r;
+    };
+    struct RPMvel_Response {
+      double vel;
+    };
+  };
+};
