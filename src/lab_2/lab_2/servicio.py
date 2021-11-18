@@ -11,8 +11,8 @@ class RPMService(Node):
         self.srv = self.create_service(RPMvel, 'rpm', self.RPM_callback)
 
     def RPM_callback(self, request, response):
-        response.vel = request.rpm * ((2*math.pi)/60) * 0.1
-        self.get_logger().info('RPM: %d' % (request.rpm))
+        response.vel = request.RPM * ((2*math.pi)/60) * 0.1
+        self.get_logger().info('RPM: %d' % (request.RPM))
         return response
 
 
