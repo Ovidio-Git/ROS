@@ -5,18 +5,17 @@ import rclpy
 from rclpy.node import Node
 
 
-class MinimalClientAsync(Node):
+class RPMClient(Node):
 
     def __init__(self):
         super().__init__('RPMClient')
         self.cli = self.create_client(RPMvel, 'rpm')
         while not self.cli.wait_for_service(timeout_sec=1.0):
-            self.get_logger().info('service not available, waiting again...')
+            self.get_logger().info('error con el servicio')
         self.req = RPMvel.Request()
 
     def send_request(self):
-        self.req.a = int(sys.argv[1])
-        self.req.b = int(sys.argv[2])
+        self.req.RPM = int(sys.argv[1])
         self.future = self.cli.call_async(self.req)
 
 
@@ -36,7 +35,7 @@ def Run(args=None):
                     'Service call failed %r' % (e,))
             else:
                 minimal_client.get_logger().info(
-                    'Result of add_two_ints: for %d vel = %d' %
+                    'resultado for %d vel = %d' %
                     (RPM_client.req.RPM,  RPM_client.vel))
             break
 
