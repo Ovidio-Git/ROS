@@ -1,4 +1,4 @@
-import .RPM_Interface
+from own_interfaces.srv import RPMvel
 import rclpy
 from rclpy.node import Node
 import math 
@@ -8,7 +8,7 @@ class RPMService(Node):
 
     def __init__(self):
         super().__init__('RPM_service')
-        self.srv = self.create_service(RPM_Interface, 'rpm', self.RPM_callback)
+        self.srv = self.create_service(RPMvel, 'rpm', self.RPM_callback)
 
     def RPM_callback(self, request, response):
         response.vel = request.rpm * ((2*math.pi)/60) * 0.1
