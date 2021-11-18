@@ -1,6 +1,6 @@
 import sys
 
-import .RPM_Interface
+from own_interfaces.srv import RPMvel
 import rclpy
 from rclpy.node import Node
 
@@ -9,10 +9,10 @@ class MinimalClientAsync(Node):
 
     def __init__(self):
         super().__init__('RPMClient')
-        self.cli = self.create_client(RPM_Interface, 'rpm')
+        self.cli = self.create_client(RPMvel, 'rpm')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('service not available, waiting again...')
-        self.req = RPM_Interface.Request()
+        self.req = RPMvel.Request()
 
     def send_request(self):
         self.req.a = int(sys.argv[1])
