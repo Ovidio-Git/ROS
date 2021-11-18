@@ -12,7 +12,7 @@ class RPMService(Node):
 
     def RPM_callback(self, request, response):
         response.vel = request.a * ((2*math.pi)/60) * 0.1
-        self.get_logger().info('RPM: %d' % (request.RPM))
+        self.get_logger().info('RPM: %d' % (request.a))
         return response
 
 
