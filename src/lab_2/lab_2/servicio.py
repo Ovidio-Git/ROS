@@ -17,7 +17,7 @@ class RPMService(Node):
 
 
 def Run():
-    rclpy.init(args=None)
+    rclpy.init()
     RPM_service = RPMService()
     rclpy.spin(RPM_service)
     rclpy.shutdown()
