@@ -31,10 +31,10 @@ def Run():
             try:
                 response = RPM_client.future.result()
             except Exception as e:
-                minimal_client.get_logger().info(
+                RPM_client.get_logger().info(
                     'Llamada al servicio fallida %r' % (e,))
             else:
-                minimal_client.get_logger().info(
+                RPM_client.get_logger().info(
                     'RPM: %d velocidad del vehiculo = %d' %
                     (RPM_client.req.a,  response.vel))
             break
