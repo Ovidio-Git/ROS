@@ -9,7 +9,7 @@ class RPMClient(Node):
 
     def __init__(self):
         super().__init__('RPM_client')
-        self.cli = self.create_client(RPMvel, 'RPM_service')
+        self.cli = self.create_client(RPMvel, 'rpm')
         while not self.cli.wait_for_service(timeout_sec=1.0):
             self.get_logger().info('error con el servicio')
         self.req = RPMvel.Request()
