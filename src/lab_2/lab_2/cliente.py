@@ -19,7 +19,7 @@ class RPMClient(Node):
         self.future = self.cli.call_async(self.req)
 
 
-def Run(args=None):
+def Run():
     rclpy.init(args=args)
 
     RPM_client  = RPMClient()
