@@ -15,7 +15,7 @@ class RPMClient(Node):
         self.req = RPMvel.Request()
 
     def send_request(self):
-        self.req.RPM = int(sys.argv[1])
+        self.req.a = int(sys.argv[1])
         self.future = self.cli.call_async(self.req)
 
 
