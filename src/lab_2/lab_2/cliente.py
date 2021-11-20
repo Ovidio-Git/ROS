@@ -1,6 +1,7 @@
 from own_interfaces.srv import RPMvel
 import rclpy
 from rclpy.node import Node
+from time import sleep
 
 
 class RPMClient(Node):
@@ -32,7 +33,8 @@ def Run():
                         'Llamada al servicio fallida %r' % (e,))
                 else:
                     velocidad = response.vel * (0.1047197551)
-                    RPM_client.get_logger().info('La Velocidad del robot es: {:.2f} m/s'.format(velocidad))
+                    RPM_client.get_logger().info('Velocidad Robot: {:.2f} m/s'.format(velocidad))
+                    sleep(2)
                 break
             
     RPM_client.destroy_node()
