@@ -30,10 +30,8 @@ def Run():
                 RPM_client.get_logger().info(
                     'Llamada al servicio fallida %r' % (e,))
             else:
-                Revoluciones = float(response.vel)
-                Radio = float(response.r)
-                velocidad = Revoluciones * Radio * (0.1047197551)
-                RPM_client.get_logger().info('Con RPM: {:.2f}  y Radio: {:.2f}  La Velocidad del robot es: {:.2f} m/s'.format(Revoluciones,Radio , velocidad))
+                velocidad = response.vel * (0.1047197551)
+                RPM_client.get_logger().info('La Velocidad del robot es: {:.2f} m/s'.format(velocidad))
             
 
     RPM_client.destroy_node()
