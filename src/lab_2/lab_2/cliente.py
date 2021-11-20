@@ -1,5 +1,3 @@
-import sys
-
 from own_interfaces.srv import RPMvel
 import rclpy
 from rclpy.node import Node
@@ -15,7 +13,6 @@ class RPMClient(Node):
         self.req = RPMvel.Request()
 
     def send_request(self):
-        #self.req.a = float(sys.argv[1])
         self.future = self.cli.call_async(self.req)
 
 
@@ -33,8 +30,10 @@ def Run():
                 RPM_client.get_logger().info(
                     'Llamada al servicio fallida %r' % (e,))
             else:
-                velocidad = float(response.vel) * (0.0104719733)
-                RPM_client.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(velocidad))
+                Revoluciones = float(response.vel)
+                Radio = float(response.r)
+                velocidad = Revoluciones * Radio * (0.1047197551)
+                RPM_client.get_logger().info('Con RPM: {:.2f}  y Radio: {:.2f}  La Velocidad del robot es: {:.2f} m/s'.format(Revoluciones,Radio , velocidad))
             
 
     RPM_client.destroy_node()
