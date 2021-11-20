@@ -10,9 +10,9 @@ class RPMService(Node):
         self.srv = self.create_service(RPMvel, 'rpm', self.RPM_callback)
 
     def RPM_callback(self, request, response):
-        response.r = float(sys.argv[1])
-        response.vel = float(sys.argv[2])
-        self.get_logger().info('Valor RPM: %d Valor radio:' % (response.vel,response.r))
+        #response.r = float(sys.argv[1])
+        response.vel = [float(sys.argv[1]),float(sys.argv[2])]
+        self.get_logger().info('Valor RPM: %d Valor radio:' % (response.vel))
         return response
 
 def Run():
