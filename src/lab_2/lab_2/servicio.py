@@ -12,7 +12,7 @@ class RPMService(Node):
     def RPM_callback(self, request, response):
         RpmporRadio = float(sys.argv[1])*(float(sys.argv[2]) * 0.01)
         response.vel = RpmporRadio
-        self.get_logger().info('Valor RPM: {:.2f} Valor radio: {:.2f}'.format(float(sys.argv[1]),float(sys.argv[2])))
+        self.get_logger().info('Valor RPM: {} Valor radio: {}'.format(sys.argv[1],sys.argv[2]))
         return response
 
 def Run():
