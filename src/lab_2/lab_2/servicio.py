@@ -11,7 +11,7 @@ class RPMService(Node):
 
     def RPM_callback(self, request, response):
         #response.vel = float(request.a) * (0.0104719733)
-        response.vel = 290
+        response.vel = 290.0
         self.get_logger().info('Valor constante RPM: %d' % (response.vel))
         return response
 
