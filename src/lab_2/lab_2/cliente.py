@@ -15,7 +15,7 @@ class RPMClient(Node):
         self.req = RPMvel.Request()
 
     def send_request(self):
-        self.req.a = float(sys.argv[1])
+        #self.req.a = float(sys.argv[1])
         self.future = self.cli.call_async(self.req)
 
 
@@ -34,7 +34,8 @@ def Run():
                 RPM_client.get_logger().info(
                     'Llamada al servicio fallida %r' % (e,))
             else:
-                RPM_client.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(response.vel))
+                velocidad = float(response.vel) * (0.0104719733)
+                RPM_client.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(velocidad))
             break
 
     RPM_client.destroy_node()
