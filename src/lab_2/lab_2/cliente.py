@@ -24,19 +24,18 @@ def Run():
 
     RPM_client  = RPMClient()
     RPM_client.send_request()
-    while true:
-        while rclpy.ok():
-            rclpy.spin_once(RPM_client)
-            if RPM_client.future.done():
-                try:
-                    response = RPM_client.future.result()
-                except Exception as e:
-                    RPM_client.get_logger().info(
-                        'Llamada al servicio fallida %r' % (e,))
-                else:
-                    velocidad = float(response.vel) * (0.0104719733)
-                    RPM_client.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(velocidad))
-                break
+    while rclpy.ok():
+        rclpy.spin_once(RPM_client)
+        if RPM_client.future.done():
+            try:
+                response = RPM_client.future.result()
+            except Exception as e:
+                RPM_client.get_logger().info(
+                    'Llamada al servicio fallida %r' % (e,))
+            else:
+                velocidad = float(response.vel) * (0.0104719733)
+                RPM_client.get_logger().info('Velocidad del robot:{:.2f} m/s'.format(velocidad))
+            
 
     RPM_client.destroy_node()
     rclpy.shutdown()
